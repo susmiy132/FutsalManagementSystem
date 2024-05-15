@@ -12,5 +12,6 @@ import lombok.Setter;
 
 public class GroundPojo {
     private Integer id;
+
     private String groundName;
 }

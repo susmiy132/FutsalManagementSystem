@@ -9,6 +9,12 @@ import java.util.List;
 import java.util.Optional;
 
 public interface RoleService {
+    List<Role> getAllRoles();
+
+    void saveRole(Role role);
+
+    void deleteRoleById(Integer id);
+
     void savaData(RolePojo rolePojo);
 
     void saveData(RolePojo rolePojo);
